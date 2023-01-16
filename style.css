@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'MC';
+  src: url(MCReg-Bmg3.otf);
+}
+
+h1 {text-align: center;}
+
+div.a {
+  text-align: center;
+}
+
+body  {
+  background-image: url("bg.jpg");
+  background-color: #cccccc;
+  font-family: MC;
+  color: white;
+  text-align: center;
+}
+
+input[type=text] {
+  height: 40px;
+  width: 300;
+  outline: 2px solid white;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-color: black;
+  padding: 0;
+  font-family: MC;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #4C4C4C;
+  border-bottom: 4px solid #white;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  height: 40px;
+  width: 100;
+  outline: 2px solid black;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-image: url('btn.png');
+  background-repeat: repeat;
+  padding: 0;
+  font-family: MC;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px #4C4C4C;
+  border-bottom: 4px solid #565656;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('btna.png');
+  color: #FFFFA0;
+}
+
+
+
